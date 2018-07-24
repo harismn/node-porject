@@ -1,0 +1,32 @@
+{
+  "name": "rest-shop",
+  "version": "1.0.0",
+  "description": "node js restful api tutorial project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/harismn/node-porject.git"
+  },
+  "keywords": [
+    "node",
+    "restful",
+    "api"
+  ],
+  "author": "harisman nugraha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harismn/node-porject/issues"
+  },
+  "homepage": "https://github.com/harismn/node-porject#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.3"
+  }
+}
